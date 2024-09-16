@@ -68,9 +68,12 @@
   min-height: 70px;
 }
 .status-icon {
-  margin-top: 2%;
+  margin-top: 3%;
   padding-right: 4%;
 }
 .cardFooter {
   display: flex;
+}
+.cardHeader .ticket-user-id {
+  margin-top: -10%;
 }
