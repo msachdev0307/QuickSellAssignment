@@ -1,0 +1,59 @@
+.card-column {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin-right: 10px;
+  white-space: normal;
+  width: 20%;
+  padding-right: 1%;
+}
+/* CSS file: statusHeader.css */
+
+.statusHeader {
+  display: flex;
+  justify-content: space-between; /* Align items to the start and end of the container */
+  align-items: center; /* Vertically center items */
+  padding: 10px; /* Optional: add padding for spacing */
+  border-bottom: 1px solid #ddd; /* Optional: add a border for separation */
+  height: 60px;
+}
+
+.columnTitle {
+  display: -webkit-box;
+  align-items: center; /* Vertically center the items within this span */
+}
+
+.columnName {
+  margin-left: 8px; /* Space between icon and title */
+  font-weight: 500;
+}
+
+.columnCount {
+  margin-left: 8px; /* Space between title and count */
+  color: grey;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.columnIcons {
+  display: flex;
+  align-items: center; /* Vertically center the icons */
+}
+
+.columnIcons > * {
+  margin-left: 10px; /* Space between icons */
+}
+.user-id-icon {
+  font-size: 0.5em;
+  font-weight: bold;
+  padding: 8px 8px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: darkgrey;
+  color: white;
+  width: 10px;
+  height: 10px;
+  line-height: 8px;
+  overflow: hidden;
+  position: relative;
+}
